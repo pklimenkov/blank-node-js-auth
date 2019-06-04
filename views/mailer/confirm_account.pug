@@ -1,0 +1,8 @@
+html
+  head
+    title #{ t('email.activateAccount.title') }
+  body
+    h4 #{ t('email.activateAccount.intro') }
+      br
+      | #{ t('email.activateAccount.first') }
+    a(href=""+host+"/"+"auth"+"/activation/"+token, target="_blank") #{ t('labels.activateAccount') }

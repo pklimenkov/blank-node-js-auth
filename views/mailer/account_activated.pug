@@ -1,0 +1,9 @@
+html
+  head
+    title #{ t('email.welcome.title') }
+  body
+    h3 #{ t('email.welcome.welcome') },
+    h4 #{ t('email.welcome.first') }
+      br
+      | You can login by following the link below:
+    a(href=""+host+"/"+"auth"+"/login", target="_blank") #{ t('labels.login') }
