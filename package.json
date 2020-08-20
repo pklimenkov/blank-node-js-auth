@@ -19,7 +19,7 @@
     "airbrake": "^2.1.1",
     "apicache": "^1.2.1",
     "axios": "^0.18.0",
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
     "bluebird": "^3.5.1",
     "body-parser": "^1.17.2",
